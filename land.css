@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: poppins;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .bg-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 240, 240, 0.4));
+    z-index: -1;
+    pointer-events: none;
+  }
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    z-index: 1;
+    position: relative;
+  }
+  .header h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .header p {
+    font-size: 1.2rem;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  .cba-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgba(128, 0, 128, 0.514);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0288D1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .cta-button:hover {
+    background-color: #026AA7;
+  }
+  .features {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .features h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .feature-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 20px);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  .feature-card i {
+    font-size: 3rem;
+    color: #0288D1;
+    margin-bottom: 10px;
+  }
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .feature-card p {
+    font-size: 1rem;
+    color: #666666fb;
+  }
+  .cta-section {
+    background: #F0F8FF;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background: #EEF6F9;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }
+#bgImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    opacity: 0.8;
+  }
